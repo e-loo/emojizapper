@@ -1,0 +1,15 @@
+{
+    "name": "e-loo/emojizapper",
+    "description": "This small script uses the unicode.org emoji list to build an all encompassing PCRE regular expression to match all emoji in a given string.",
+    "type": "project",
+    "license": "MIT License",
+    "require": {
+        "querypath/querypath": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Berry Ligtermoet",
+            "email": "berry@eloo.nl"
+        }
+    ]
+}
