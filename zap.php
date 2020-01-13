@@ -26,7 +26,7 @@ foreach ($elements as $element) {
         return sprintf('\x{%s}', $matches[1]);
     }, $parts);
 
-    $code = implode(' ', $parts);
+    $code = implode('', $parts);
 
     $codes[] = $code;
 }
